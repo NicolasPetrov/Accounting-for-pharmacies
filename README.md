@@ -30,9 +30,3 @@ This project showcases the development of a Java application using the Swing lib
 - **Dialog Windows**: Data input and editing via `JOptionPane.showInputDialog`.
 - **Multithreading**: GUI launched in the `SwingUtilities.invokeLater` thread for proper Swing operation.
 - **Splash Screen**: Displays an image (`splash_image.png`) with a delay via `Thread.sleep`.
-
-#### Error Handling:
-
-Checks for row selection before editing or deleting, with a message displayed if no row is selected.
-
-No input exception handling (e.g., for invalid numbers in ID, Stock, or Price fields).
